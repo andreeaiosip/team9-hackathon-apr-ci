@@ -64,3 +64,12 @@ footer a {
 .games-checklist{
     font-size: 25px;
 }
+
+.col-md-4 {
+    padding: 3em;
+}
+
+.col-md-4 label {
+    align-items: center;
+    justify-content: center;
+}
