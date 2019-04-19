@@ -1,0 +1,45 @@
+body {
+    background-image: url('https://images.pexels.com/photos/33707/flowers-meadow-wood-forest.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 75vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1em;
+}
+
+#our-nav,
+#our-nav a,
+header,
+footer {
+    background-color: darkgreen;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#our-nav a :active {
+    font-weight: bold
+}
+
+footer a {
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+#olivia {
+    color: pink
+}
+#andreea {
+    color: lightyellow
+}
+#zoltan{
+    color: skyblue
+}
+#jo {
+    color: lightgreen
+}
