@@ -82,3 +82,9 @@ label {
     display: inline-block;
 
 }
+
+.story-main,
+.story-main img {
+    display: block;
+    margin: 0 auto;
+}
