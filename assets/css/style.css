@@ -7,13 +7,13 @@ body {
     background-image: url('https://images.pexels.com/photos/33707/flowers-meadow-wood-forest.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     font-family: 'Gloria Hallelujah', cursive;
-    font-weight: bold;
     font-size: 1.5em;
+    padding-bottom: 4.5em;
 }
 
 section {
     background-color: rgba(255, 255, 255, 0.5);
-    min-height: 75vh;
+    min-height: 70vh;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -26,11 +26,16 @@ section {
 #our-nav a,
 header,
 footer {
-    
     font-family: 'Dokdo', cursive;
     background-color: darkgreen;
     color: antiquewhite;
     text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 #our-nav a :active {
@@ -65,11 +70,15 @@ footer a {
     font-size: 25px;
 }
 
+
 .col-md-4 {
     padding: 3em;
-}
-
-.col-md-4 label {
     align-items: center;
     justify-content: center;
+}
+
+label {
+    width: 80%;
+    display: inline-block;
+
 }
