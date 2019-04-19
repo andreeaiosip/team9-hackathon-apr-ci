@@ -32,6 +32,22 @@ footer {
     text-align: center;
 }
 
+a {
+    color: darkgreen;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.btn-success {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
 footer {
     position: fixed;
     bottom: 0;
