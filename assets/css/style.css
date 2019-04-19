@@ -1,5 +1,14 @@
+/* Imported Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Gloria+Hallelujah');
+
+
+/* Styles */
 body {
-    background-image: url('https://images.pexels.com/photos/33707/flowers-meadow-wood-forest.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+    background-image: url('https://images.pexels.com/photos/33707/flowers-meadow-wood-forest.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 section {
@@ -17,6 +26,8 @@ section {
 #our-nav a,
 header,
 footer {
+    
+    font-family: 'Dokdo', cursive;
     background-color: darkgreen;
     color: antiquewhite;
     text-align: center;
@@ -42,4 +53,14 @@ footer a {
 }
 #jo {
     color: lightgreen
+}
+
+.games-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.games-checklist{
+    font-size: 25px;
 }
